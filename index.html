@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Profile - Kittituch</title>
+    
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap');
+
+		body {
+			font-family: 'Prompt', sans-serif;
+			background-color: #e3f2fd;
+			color: #333;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			margin: 0;
+		}
+
+		.profile-card {
+			background: white;
+			padding: 40px;
+			border-radius: 15px;
+			box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+			text-align: center;
+			max-width: 400px;
+			width: 90%;
+		}
+
+		.profile-img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			object-fit: cover;
+			border: 4px solid #2196f3;
+			margin-bottom: 20px;
+		}
+
+		h1 {
+			margin: 0;
+			color: #0d47a1;
+			font-size: 24px;
+		}
+
+		.subtitle {
+			color: #1976d2;
+			font-size: 14px;
+			margin-top: 5px;
+			margin-bottom: 20px;
+		}
+
+		.intro {
+			text-align: left;
+			line-height: 1.6;
+			margin-bottom: 25px;
+			font-size: 15px;
+		}
+
+		.github-btn {
+			display: inline-block;
+			background-color: #1e88e5;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 25px;
+			text-decoration: none;
+			font-weight: 600;
+			transition: background 0.3s;
+		}
+
+		.github-btn:hover {
+			background-color: #1565c0;
+		}
+	</style>
 </head>
 <body>
-    <h1>Kittituch samosorn</h1>
-    <p>6823765812/college of innovation</p>
-    <p>app for helping matchhing outfit for the day</p>
-    <a href="https://github.com/Kittituchsamosorn">githubprofile</a>
-    
+	<div class="profile-card">
+		<img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+        
+		<h1>Kittituch Samosorn</h1>
+		<div class="subtitle">6823765812 / College of innovation</div>
+        
+		<div class="intro">
+			<p>👋 สวัสดีครับ! ผมเป็นนักศึกษาที่สนใจในการพัฒนาแอปพลิเคชัน</p>
+			<p>📱 แอปที่อยากสร้างในวิชานี้คือ App for helping matching outfit for the day</p>
+			<p>✨ งานอดิเรกของผมคือการเรียนรู้เทคโนโลยีใหม่ๆ และชื่นชอบการออกแบบ UI/UX</p>
+		</div>
+
+		<a href="https://github.com/Kittituchsamosorn" class="github-btn" target="_blank" rel="noopener noreferrer" aria-label="Open Kittituch's GitHub profile">
+			GitHub Profile
+		</a>
+	</div>
 </body>
 </html>
++
